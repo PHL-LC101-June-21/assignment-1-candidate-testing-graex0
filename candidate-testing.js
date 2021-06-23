@@ -66,7 +66,7 @@ for (let i = 0; i < correctAnswers.length; i++) {
   }
 console.log("\n"+ "Candidate Name: " + candidateName)
 for (i = 0; i < candidateAnswers.length; i++) {
-   console.log((i + 1) + ")" + questions[i] + "\nYour answer: " + candidateAnswers[i] + "\nCorrect answer: " + correctAnswers[i] + ". \n");
+   console.log((i + 1) + ")" + questions[i] + "\nYour answer: " + candidateAnswers[i] + "\nCorrect answer: " + correctAnswers[i] + "\n");
   }
 
 let grade = (correctAnswersNumber/5 * 100);
