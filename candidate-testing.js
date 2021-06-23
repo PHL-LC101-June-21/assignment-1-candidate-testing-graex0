@@ -76,7 +76,7 @@ console.log(">>> Overall Grade: " + grade + "% (" + correctAnswersNumber + " of 
   }
     else {console.log (">>> Status: PASSED <<<")
     }
-  return grade;
+  return Number(grade);
 
 // resolve below issue with candidateName as undefined. 
 // console.log("Candidate Name: " + candidateName + "\n" );
