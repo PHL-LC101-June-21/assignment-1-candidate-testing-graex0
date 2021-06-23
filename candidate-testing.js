@@ -64,12 +64,12 @@ for (let i = 0; i < correctAnswers.length; i++) {
       correctAnswersNumber = (correctAnswersNumber + 1);
     }
   }
-console.log("\n"+ "Candidate Name: " + candidateName)
+console.log("\n" + "Candidate Name: " + candidateName)
 for (i = 0; i < candidateAnswers.length; i++) {
    console.log((i + 1) + ")" + questions[i] + "\nYour answer: " + candidateAnswers[i] + "\nCorrect answer: " + correctAnswers[i] + "\n");
   }
-
-let grade = ((correctAnswersNumber/5) * 100);
+let percent = 100
+let grade = ((correctAnswersNumber/5) * percent);
 console.log(">>> Overall Grade: " + grade + "% (" + correctAnswersNumber + " of 5 responses correct) <<<")
   if (grade < 80) {
     console.log(">>> Status: FAILED <<<");
