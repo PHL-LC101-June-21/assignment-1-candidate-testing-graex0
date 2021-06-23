@@ -61,7 +61,7 @@ function gradeQuiz(candidateAnswers) {
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 for (let i = 0; i < correctAnswers.length; i++) {  
   if (candidateAnswers[i].toUpperCase() === correctAnswers[i].toUpperCase()) {
-      correctAnswersNumber = correctAnswersNumber + 1;
+      correctAnswersNumber = (correctAnswersNumber + 1);
     }
   }
 console.log("\n"+ "Candidate Name: " + candidateName)
