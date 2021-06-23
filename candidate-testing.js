@@ -69,7 +69,7 @@ for (i = 0; i < candidateAnswers.length; i++) {
    console.log((i + 1) + ")" + questions[i] + "\nYour answer: " + candidateAnswers[i] + "\nCorrect answer: " + correctAnswers[i] + "\n");
   }
 
-let grade = (correctAnswersNumber/5 * 100);
+let grade = ((correctAnswersNumber/5) * 100);
 console.log(">>> Overall Grade: " + grade + "% (" + correctAnswersNumber + " of 5 responses correct) <<<")
   if (grade < 80) {
     console.log(">>> Status: FAILED <<<");
